@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 end
 
 Rails.application.routes.draw do
- resources :posts, only: :show
+ resources :students, only: [:index, :show]
 end
